@@ -32,3 +32,8 @@ body {
   height: 100px;
   background: #ffe600;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
